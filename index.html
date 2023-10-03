@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NetFlix</title>
+    <style>
+        
+        
+        #netflix {
+
+            font-size: 49px;
+            /* background-color: rgb(146, 38, 138); */
+            font-family: 'Jost', sans-serif;
+            /* font-family: 'Playfair Display', serif; */
+            color: rgb(233, 6, 6);
+            /* border: 2px solid rgb(18, 18, 224); */
+            padding: 10px 171px 18px 19px;
+            margin: -6px 15px 7px -4px;
+            width: 100px;
+            box-sizing: border-box;
+        }
+
+
+
+        #background {
+            background-color: #333;
+            padding-top: 45px;
+            padding-right: 80px;
+            padding-bottom: 190px;
+            padding-left: 80px;
+            margin-top: 4px;
+            margin-right: 150px;
+            margin-bottom: 68px;
+            margin-left: 550px;
+            border-radius: 9px;
+            width: 295px;
+            height: 500px;
+
+        }
+
+        #sign {
+            font-size: 39px;
+            padding-top: 6px;
+            padding-right: 45px;
+            padding-bottom: 30px;
+            padding-left: 5px;
+            margin-top: 10px;
+            margin-right: 65px;
+            margin-bottom: 11px;
+            margin-left: 4px;
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+
+
+
+        }
+
+        .dolly {
+            background-color: #ce0e4ec4;
+            padding-top: 20px;
+            padding-right: 143px;
+            padding-bottom: 15px;
+            padding-left: 55px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            border: 2px solid #b93cbe00;
+            border-radius: 8px;
+        }
+
+        #dolly2 {
+            background-color: #ce0e4ec4;
+            padding-top: 20px;
+            padding-right: 143px;
+            padding-bottom: 15px;
+            padding-left: 55px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            border: 2px solid #b93cbe00;
+            border-radius: 8px;
+        }
+
+        #input1 {
+            background-color: #ce0e4ec4;
+            padding-top: 20px;
+            padding-right: 143px;
+            padding-bottom: 15px;
+            padding-left: 55px;
+            margin-top: 25px;
+            border: 3px solid rgb(190 158 199 / 9%);
+            border-radius: 8px;
+        }
+
+        #me {
+            color: #c7d6e49e;
+            padding: 4px 0px;
+            margin: -24px 25px;
+            width: 97px;
+        }
+
+        #help {
+            color: #c7d6e49e;
+            padding: 2px 194px;
+            margin: 0px 13px;
+            width: 79px;
+        }
+
+        .para1 {
+            color: #c7d6e49e;
+            padding: 21px 0px;
+            margin: 7px 9px;
+            width: 214px;
+
+        }
+
+        #para2 {
+            color: #c7d6e49e;
+            padding: 11px 0px;
+            margin: 14px 0px;
+        }
+
+        #lowblock {
+            background-color: #333;
+            border: 3px solid rgba(134, 130, 130, 0.127);
+            padding: 5px 119px;
+            margin: 201px -14px;
+            /* height: 200px; */
+
+        }
+
+        #quos {
+            color: #c7d6e49e;
+            padding: 13px 20px;
+            margin: 2px 1px;
+            width: 234px;
+        }
+
+        #fab {
+            color: #c7d6e49e;
+            padding: 13px 20px;
+            margin: 2px 1px;
+            width: 234px;
+        }
+
+        #center {
+            color: #c7d6e49e;
+            padding: 13px 20px;
+            margin: -60px 198px;
+            width: 284px;
+        }
+
+        #of {
+            color: #c7d6e49e;
+            padding: 31px 20px;
+            margin: -51px 466px;
+            width: 284px;
+        }
+
+        #private {
+            color: #c7d6e49e;
+            padding: 31px 20px;
+            margin: -80px 783px;
+            width: 284px;
+        }
+
+
+        #bite {
+            color: #c7d6e49e;
+            padding: 95px 20px;
+            margin: 2px 3px;
+            width: 234px;
+        }
+
+        #chill {
+            color: #c7d6e49e;
+            margin: -116px 218px;
+            width: 234px;
+        }
+
+
+
+        #map {
+            margin: 154px 25px;
+            width: 150px;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Playfair+Display:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <form action="backend.php">
+
+        <!-- Heading of the page using "id=netflix" -->
+        <h1 id="netflix">NetFlix</h1>
+        <!-- This div-id refers to first div element which I will use to design the background of the sign up elements, using "id=background-el" -->
+        <div id="background">
+            <h2 id="sign">Sign In</h2>
+
+            <div class="dolly">
+                <input type="text" name="myemail">
+            </div>
+            <div id="dolly2">
+                <input type="password" name="mypassword">
+            </div>
+            <div id="input1">
+                <input type="submit" value="Sign In">
+            </div>
+            <div>
+                <input type="checkbox" checked>
+            </div>
+            <div id="me">Remember Me</div>
+            <div id="help">
+                Need Help?
+            </div>
+
+            <div>
+                <p class="para1">New to NetFlix?<a href="https://www.netflix.com/">Sign Up Now</a></p>
+            </div>
+            <div id="para2">
+                <p>
+                    <span>This page is protected by Nar's reCAPTCHA to ensure that your not a bot.<a
+                            href="">Learnmore.</a></span>
+                </p>
+            </div>
+
+
+
+
+        </div>
+    </form>
+    <div id="lowblock">
+        <div id="quos">
+            <p>Questions? Call<a Call us-000-800-919-1694> 000-800-919-1694</a></p>
+        </div>
+        <div id="fab">
+            <p>FAQ</p>
+        </div>
+        <div>
+            <p id="center">Help center</p>
+        </div>
+        <div>
+            <p id="of">Terms of use</p>
+        </div>
+        <div>
+            <p id="private">Privacy</p>
+        </div>
+        <div>
+            <p id="bite">Cookie Prefrences</p>
+        </div>
+        <div>
+            <p id="chill">Corporate Information</p>
+        </div>
+        <div id="map">
+
+            <select name="langauge">
+                <option value="Hindi" selected>Hindi</option>
+                <option value="Kannada">Kannada</option>
+                <option value="Tamil">Tamil</option>
+                <option value="Bengali">Bengali</option>
+                <option value="Maliyayam">Maliyayam</option>
+                <option value="English">English</option>
+                <option value="Assamese">Assamese</option>
+                <option value="Marati">Marati</option>
+                <option value="Japanese">Japanese</option>
+                <option value="Dutch">Dutch</option>
+                <option value="French">French</option>
+                <option value="Odiya">Odiya</option>
+                <option value="German">German</option>
+                <option value="Bihari">Bihari</option>
+                <option value="English UK">English UK</option>
+            </select>
+        </div>
+    </div>
+</body>
+
+</html>
